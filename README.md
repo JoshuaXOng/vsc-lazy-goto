@@ -6,3 +6,7 @@ The modified behaviour is displaying the target location only after the user sub
 Typically goto would be eager, without pressing enter, the editor would present the desired line number.
 
 * Moving the cursor whilst updating a selected area is also supported
+
+## Example Usage
+
+<img src="./example_usage.gif" width="auto" height="350"/>
