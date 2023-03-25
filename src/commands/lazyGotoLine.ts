@@ -51,8 +51,6 @@ export const lazyGotoLine = async () => {
 	} else {
 		const cursorPosition = currentEditor.selection.active;
 
-		vscode.window.showInformationMessage(`${currentSelection}\n ${cursorPosition}`)
-
 		const newSelRange = ((): [vscode.Position, vscode.Position] | undefined => {
 			if (cursorPosition.isBefore(currentSelection.end) === true) {
 				return [currentSelection.end, targetLine.range.start];
