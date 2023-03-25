@@ -15,7 +15,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:vsc-ctrl-g.lazyGotoLine"
+    "onCommand:vsc-lazy-goto.lazyGotoLine"
   ],
   "main": "./dist/extension.js",
   "contributes": {
