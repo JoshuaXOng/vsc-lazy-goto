@@ -1,6 +1,6 @@
 {
   "name": "vsc-lazy-goto",
-  "icon": "./vsc_lazy_goto_icon.png",
+  "icon": "vsc_lazy_goto_icon.png",
   "displayName": "vsc-lazy-goto",
   "description": "Provides a modified version of the default Visual Studio Code ctrl-g shortcut.",
   "version": "0.1.1",
