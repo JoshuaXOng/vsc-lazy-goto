@@ -31,10 +31,8 @@ export const lazyGotoLine = async () => {
 		valueSelection: [1, 1],
 		validateInput: validateInput,
 	});
-	if (commandInput === undefined || commandInput === null) {
-		vscode.window.showErrorMessage("Unexpected error occured.");
+	if (commandInput === undefined || commandInput === null)
 		return;
-	}
 
 	const currentEditor = vscode.window.activeTextEditor;
 	if (!currentEditor) {
